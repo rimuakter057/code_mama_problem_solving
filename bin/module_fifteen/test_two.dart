@@ -17,7 +17,7 @@ String transformString(String input) {
 }
 
 void main() {
-  // Write your dart code from here
+
   String? userInput = stdin.readLineSync();
   if (userInput != null && userInput.isNotEmpty) {
     String output = transformString(userInput);
